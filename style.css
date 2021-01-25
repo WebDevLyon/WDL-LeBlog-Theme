@@ -1,0 +1,70 @@
+/*
+Theme Name: Web Dev Lyon Blog
+Theme URI: http://webdevlyon.fr
+Author: Nicolas Lachise @Web Dev Lyon
+Author URI: http://webdevlyon.fr
+Description: Thème du blog pour le site
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+/*Style principal*/
+body {
+  background: #ebebeb;
+}
+
+/* HEADER */
+.header__bottom__search-block {
+  background-color: #202020;
+  color: white;
+}
+
+.header__bottom__social__icon {
+  font-size: 2rem;
+}
+/*Search Form*/
+.submit-form input {
+  display: none;
+}
+.loupe {
+  font-size: 3rem;
+  cursor: pointer;
+}
+/*Post Front Page*/
+.post {
+  padding: 2rem;
+  background: #fff;
+}
+
+.post__head__meta {
+  font-style: italic;
+  margin: 1rem 0 0;
+}
+.post__head__title a {
+  color: black;
+  text-decoration: none;
+}
+
+.post__footer__category-list a {
+  color: #6c757d;
+  text-decoration: none;
+}
+textarea {
+  width: 100%;
+}
+
+/*Footer*/
+.footer {
+  padding-top: 2rem;
+  background: #202020;
+}
+.footer__bottom {
+  background-color: #111111;
+  height: 4rem;
+}
+/*Archive style*/
+
+/*Contact template Style*/
+input {
+  width: 100%;
+}
