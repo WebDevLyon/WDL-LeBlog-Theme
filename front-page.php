@@ -43,7 +43,7 @@
         </div>
         <!--SIDEBAR-->
         <aside class=" site__sidebar col-md-4 mt-md-5">
-                <?php dynamic_sidebar('blog-sidebar'); ?>
+            <?php dynamic_sidebar('blog-sidebar'); ?>
         </aside>
         <!--<aside class=" site__sidebar col-md-4 mt-md-5">
             <div class='post text-center'>Les widgets arriveront bientôt</div>

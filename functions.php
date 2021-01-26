@@ -14,10 +14,53 @@ register_nav_menus(array(
     'footer' => 'Bas de page',
 ));
 
+// Emplacement des Widget
+// Sidebar
 register_sidebar(array(
     'id' => 'blog-sidebar',
     'name' => 'Blog',
+    'before_widget'  => '<div class="site__sidebar__widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title' => '<p class="site__sidebar__widget__title">',
+    'after_title' => '</p>',
 ));
+
+register_sidebar(array(
+    'id' => 'blog-footer-column1',
+    'name' => 'Footer column 1',
+    'before_widget'  => '<div class="site__footer__widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title' => '<p class="site__footer__widget__title">',
+    'after_title' => '</p>',
+));
+
+register_sidebar(array(
+    'id' => 'blog-footer-column2',
+    'name' => 'Footer column 2',
+    'before_widget'  => '<div class="site__footer__widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title' => '<p class="site__footer__widget__title">',
+    'after_title' => '</p>',
+));
+
+register_sidebar(array(
+    'id' => 'blog-footer-column3',
+    'name' => 'Footer column 3',
+    'before_widget'  => '<div class="site__footer__widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title' => '<p class="site__footer__widget__title">',
+    'after_title' => '</p>',
+));
+
+register_sidebar(array(
+    'id' => 'blog-footer-column4',
+    'name' => 'Footer column 4',
+    'before_widget'  => '<div class="site__footer__widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title' => '<p class="site__footer__widget__title">',
+    'after_title' => '</p>',
+));
+//
 /**
  * Load Custom Comments Layout file.
  */
